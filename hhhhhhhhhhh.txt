@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinuri Kahatapitigama</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #FAF3E0;
+            color: #3E3D3D;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #D8BFAA;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #3E3D3D;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #FFFFFF;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #D8BFAA;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vinuri Kahatapitigama</h1>
+        <p>An English Major Student</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container" id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Vinuri Kahatapitigama, a 23-year-old English major student with a passion for literature, writing, and all things related to the English language. I love immersing myself in classic novels, exploring new genres, and sharing my thoughts through my blog. Welcome to my personal corner of the internet!</p>
+    </div>
+    <div class="container" id="blog">
+        <h2>Blog</h2>
+        <p>Coming soon! Stay tuned for my latest thoughts, book reviews, and musings on life as an English major.</p>
+    </div>
+    <div class="container" id="contact">
+        <h2>Contact</h2>
+        <p>You can reach me at: <a href="mailto:vinuri@example.com">vinuri@example.com</a></p>
+    </div>
+    <footer>
+        <p>&copy; 2024 Vinuri Kahatapitigama</p>
+    </footer>
+</body>
+</html>
